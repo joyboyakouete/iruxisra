@@ -1,0 +1,84 @@
+strong
+{
+	color: black;   /* Les mots importants seront en bleu */
+}
+
+p
+{
+	font-size: 19px; /* Paragraphes de 14 pixels */
+}
+
+h1
+{
+	font-size: 40px; /* Titres de 40 pixels */
+}
+
+@font-face { /* Définition d'une nouvelle police nommée
+LearningCurveProRegular */
+font-family: 'LearningCurveProRegular';
+src: url('LearningCurve_OT-webfont.eot');
+src: url('LearningCurve_OT-webfont.eot?#iefix')
+format('embedded-opentype'),
+url('LearningCurve_OT-webfont.woff') format('woff'),
+url('LearningCurve_OT-webfont.ttf') format('truetype'),
+url('LearningCurve_OT-webfont.svg#LearningCurveProRegular')
+format('svg');
+}
+
+h1 /* Utilisation de la police qu'on vient de définir sur les
+titres */
+{
+font-family: 'LearningCurveProRegular', arial, serif;
+}
+
+p,h1
+{
+font-style: oblique;/* Permet de donner une position au texte */
+}
+
+h2
+{
+text-align: none;
+}
+
+a /* Liens par défaut (non survolés) */
+{
+text-decoration: none;
+color: blue;
+font-style: italic;
+}
+a:hover /* Apparence au survol des liens */
+{
+text-decoration: underline;
+color: green;
+}
+
+
+
+/* mise en page css */
+
+
+p
+{
+	width: 50%;
+	min-width: 400px;
+}
+
+p
+{
+width: 350px;
+border: 1px solid black;
+text-align: justify;
+padding: 12px; /* Marge intérieure de 12px */
+margin: 50px; /* Marge extérieure de 50px */
+}
+
+
+
+
+
+
+
+
+
+
